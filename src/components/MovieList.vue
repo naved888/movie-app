@@ -194,8 +194,9 @@ export default {
             animation-duration: 1s;
 
             img {
+                height: 300px;
                 width: 100%;
-                object-fit: contain;
+                object-fit: fill;
             }
         }
     }
