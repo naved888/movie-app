@@ -79,7 +79,7 @@ export default {
     },
    async created() {
        await  setTimeout(() => {
-            axios.get(`http://www.omdbapi.com/?apikey=e0620bd4&s=harry+potter`)
+            axios.get(`https://www.omdbapi.com/?apikey=e0620bd4&s=harry+potter`)
                 .then(response => {
                     // JSON responses are automatically parsed.
                     this.movies = response.data.Search
