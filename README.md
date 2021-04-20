@@ -1,5 +1,5 @@
 # movie-app
-
+[Live Preview](https://movie-app-ns.netlify.app/)
 ## Project setup
 ```
 npm install
